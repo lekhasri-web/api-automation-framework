@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "color": { "type": "string" },
+    "name": { "type": "string" },
+    "year": { "type": "integer" },
+    "pantone_value": { "type": "string" }
+  },
+  "required": ["id"]
+}
