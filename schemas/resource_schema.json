@@ -3,10 +3,8 @@
   "type": "object",
   "properties": {
     "id": { "type": "integer" },
-    "color": { "type": "string" },
     "name": { "type": "string" },
-    "year": { "type": "integer" },
-    "pantone_value": { "type": "string" }
+    "color": { "type": "string" }
   },
   "required": ["id"]
 }
